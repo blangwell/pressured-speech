@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+body {
+    font-family: 'Heebo', sans-serif;
+    margin: 0px auto;
+}
+
+header {
+    margin: 0px auto;
+    padding: 20px;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+header h1 {
+    font-size: 40px;
+    position: relative;
+    top: 40px;
+    padding: 5px;
+
+}
