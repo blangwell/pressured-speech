@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-body {
-    font-family: 'Heebo', sans-serif;
-    margin: 0px auto;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 header { 
-    padding: 20px 40px 0;
     background-image: url('./assets/images/strange-paint.jpeg');
     background-size: cover;
     background-position: center;
@@ -17,21 +15,42 @@ header {
     padding: 10px;
     font-family: 'Merriweather', serif;    
     font-weight: 800;
-    font-size: 55px;
+    font-size: 50px;
+    padding: 20px 20px 10px;
 }
 
 #sub-title {
-    padding: 10px 0;
+    padding: 0 20px;
+    line-height: 30px;
 }
 
 .nav-link{
     color: white;
+    margin: 0 0 0 5px;
 }
+
 .nav-link:hover {
     color: darkorchid;
 }
 
 .content {
+    padding: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+header { 
+    padding: 20px 40px 0;
+}
+
+#blog-title{
+    padding: 10px;
+    font-family: 'Merriweather', serif;    
+    font-weight: 800;
+    font-size: 55px;
+}
+
+.content {
     max-width: 700px;
     margin: 20px 50px;
+}
 }
