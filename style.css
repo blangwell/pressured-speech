@@ -39,6 +39,9 @@ header {
 .content {
     padding: 20px;
     font-size: 18px;
+    text-align: justify;
+    margin: 30px;
+
 }
 
 footer {
@@ -46,7 +49,6 @@ footer {
     flex-direction: row;
     align-items: flex-end;
     justify-content: center;
-    margin: 10px;
     font-size: 10px;
 }
 
@@ -84,13 +86,14 @@ header {
 }
 
 .content {
-    max-width: 700px;
+    max-width: 800px;
     margin: 20px 50px;
-    font-size: 14px;
+    font-size: 16px;
 }
+
 footer { 
     position: absolute;
     bottom: 0;
-    right: 0;
+    left: 50px;
 }
 }
