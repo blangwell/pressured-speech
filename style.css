@@ -3,6 +3,8 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 header { 
     background-image: url('./assets/images/strange-paint.jpeg');
@@ -37,6 +39,16 @@ header {
     padding: 20px;
 }
 
+#icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#icons img{
+    width: 50px;
+    height: 50px;
+}
+
 @media only screen and (min-width: 768px) {
 header { 
     padding: 20px 40px 0;
@@ -48,9 +60,17 @@ header {
     font-weight: 800;
     font-size: 55px;
 }
+#sub-title {
+    padding: 0 10px 10px;
+    line-height: 5px;
+}
 
 .content {
     max-width: 700px;
     margin: 20px 50px;
+}
+#icons {
+    margin: 10px;
+    justify-content: flex-end;
 }
 }
